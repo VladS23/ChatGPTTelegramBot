@@ -9,7 +9,7 @@ dp = Dispatcher(bot)
 @dp.message_handler(commands=['start'])
 async def send_welcome(message: types.Message):
     await message.reply(
-        "Привет!\nЯ GPT3 бот \nОтправь мне любое сообщение, начинающееся с !, а я тебе обязательно отвечу. Начни сообщение с !code если хочешь, чтобы я написал код")
+        "Привет!\nЯ GPT3 бот \nОтправь мне любое сообщение, начинающееся с !, а я тебе обязательно отвечу")
 
 
 @dp.message_handler()
